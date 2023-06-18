@@ -27,11 +27,10 @@
     align-items: center;
     & .waitlist__input {
       width: 60%;
-      padding: 0.3rem;
-      font-size: 1.2rem;
+      padding: 0.55rem;
       border: 0;
       outline: 0;
-      box-shadow: 0 0 0 1.5px rgb(23, 33, 52);
+      box-shadow: 0 0 0 1.2px rgb(23, 33, 52);
     }
     & .waitlist__input:hover,
     .waitlist__input:active {
@@ -46,7 +45,6 @@
       background: rgb(23, 33, 52);
       color: rgb(243, 246, 250);
       padding: 0.7rem 1.4rem;
-      border-radius: 0.7rem;
       outline: 0;
       border: 0;
     }
@@ -60,7 +58,6 @@
       background: rgb(23, 33, 52);
       z-index: -1;
       transition: 0.5s;
-      border-radius: 0.7rem;
     }
     & .waitlist__btn:hover.waitlist__btn::before {
       opacity: 0;
@@ -75,19 +72,9 @@
 @media screen and (max-width: 997px) {
   .waitlist__section {
     grid-template-columns: 1fr;
-    background: linear-gradient(
-        to right,
-        rgb(237, 50, 56, 0.97),
-        rgb(237, 50, 56, 0.97)
-      ),
-      url(/img/waitlist-img.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: transparent;
     & .waitlist__context {
       align-items: center;
-      color: rgb(243, 246, 250);
       & .waitlist__p {
         text-align: center;
       }
@@ -118,12 +105,20 @@
   }
 }
 @media screen and (max-width: 376px) {
+  .waitlist__h2 {
+    text-align: center;
+    font-weight: 700 !important;
+    font-size: 2rem !important;
+  }
   .waitlist__form {
     width: 85%;
     flex-direction: column;
     justify-content: flex-start;
     & .waitlist__input {
       width: 100% !important;
+    }
+    & .waitlist__btn {
+      width: 100%;
     }
   }
 }
