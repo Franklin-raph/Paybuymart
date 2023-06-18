@@ -39,34 +39,20 @@
 }
 .box_about .arrow_2 {
   left: 0;
-  -moz-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
   transform: scaleX(-1);
-  -ms-filter: fliph;
-  /*IE*/
-  filter: fliph;
-  /*IE*/
+  -ms-filter: fliph; /*IE*/
+  filter: fliph; /*IE*/
 }
 
 .box_feat {
   text-align: center;
   background: #fff;
   padding: 40px 30px 30px 30px;
-  -moz-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-  -webkit-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-  -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
-  -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
   box-shadow: 0px 3px 0px 0px #f0f2f4;
   color: #637381;
   border: 1px solid #ededed;
   margin-bottom: 30px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   overflow: hidden;
 }
@@ -76,13 +62,7 @@
   }
 }
 .box_feat:hover {
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
   transform: translateY(-10px);
-  -webkit-box-shadow: 0px 3px 0px 0px #ebedef;
-  -moz-box-shadow: 0px 3px 0px 0px #ebedef;
   box-shadow: 0px 3px 0px 0px #ebedef;
 }
 .box_feat i {
@@ -136,9 +116,6 @@
   background-color: #083487;
   background-color: #083487;
   display: inline-block;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
   color: #fff;
   padding: 10px 15px;
@@ -161,10 +138,6 @@
 
 .carousel_centered .owl-item {
   opacity: 0.5;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
   overflow: hidden;
@@ -172,13 +145,9 @@
 
 .carousel_centered .owl-item.active.center {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .carousel_centered .owl-item.active.center .item .title h4 {
   opacity: 1;
-}
+}/*# sourceMappingURL=about.css.map */

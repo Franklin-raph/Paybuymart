@@ -65,13 +65,11 @@
     display: block;
     border: 0;
   }
-
   .table.cart-list thead tr {
     position: absolute;
     top: -9999px;
     left: -9999px;
   }
-
   .table.cart-list tr {
     border: 1px solid #ddd;
   }
@@ -81,7 +79,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 767px) {
   .table.cart-list td {
     border: none;
@@ -97,28 +94,34 @@
     padding-right: 10px;
     white-space: nowrap;
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(1):before, .table.cart-list td:nth-of-type(2):before, .table.cart-list td:nth-of-type(3):before, .table.cart-list td:nth-of-type(4):before, .table.cart-list td:nth-of-type(5):before {
     font-weight: 700;
     color: #111;
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(1):before {
     content: "Product";
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(2):before {
     content: "Price";
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(3):before {
     content: "Quantity";
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(4):before {
     content: "Subtotal";
   }
-
+}
+@media (max-width: 767px) {
   .table.cart-list td:nth-of-type(5):before {
     content: "Edit";
   }
@@ -140,10 +143,6 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1.1);
-  -moz-transform: translate(-50%, -50%) scale(1.1);
-  -ms-transform: translate(-50%, -50%) scale(1.1);
-  -o-transform: translate(-50%, -50%) scale(1.1);
   transform: translate(-50%, -50%) scale(1.1);
 }
 @media (max-width: 991px) {
@@ -222,4 +221,4 @@
   color: #ff5353;
   font-size: 21px;
   font-size: 1.3125rem;
-}
+}/*# sourceMappingURL=cart.css.map */

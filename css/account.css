@@ -21,8 +21,6 @@
 }
 .box_account .form_container {
   background-color: #fff;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   padding: 25px;
   position: relative;
@@ -48,4 +46,4 @@
   min-height: inherit;
   background-color: #f4f4f4;
   padding: 15px;
-}
+}/*# sourceMappingURL=account.css.map */

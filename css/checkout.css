@@ -126,8 +126,6 @@
   }
 }
 .step #forgot_pw {
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -149,7 +147,7 @@
   color: #004dda;
 }
 .payments ul li a.info:after, .shipping ul li a.info:after {
-  font-family: 'themify';
+  font-family: "themify";
   content: "\e718";
   position: relative;
   right: 0;
@@ -225,45 +223,12 @@
     padding: 60px 15px;
   }
 }
-
-@-webkit-keyframes checkmark {
-  0% {
-    stroke-dashoffset: 50px;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@-ms-keyframes checkmark {
-  0% {
-    stroke-dashoffset: 50px;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
 @keyframes checkmark {
   0% {
     stroke-dashoffset: 50px;
   }
   100% {
     stroke-dashoffset: 0;
-  }
-}
-@-webkit-keyframes checkmark-circle {
-  0% {
-    stroke-dashoffset: 240px;
-  }
-  100% {
-    stroke-dashoffset: 480px;
-  }
-}
-@-ms-keyframes checkmark-circle {
-  0% {
-    stroke-dashoffset: 240px;
-  }
-  100% {
-    stroke-dashoffset: 480px;
   }
 }
 @keyframes checkmark-circle {
@@ -279,11 +244,9 @@
 }
 
 .icon--order-success svg path {
-  -webkit-animation: checkmark 0.25s ease-in-out 0.7s backwards;
   animation: checkmark 0.25s ease-in-out 0.7s backwards;
 }
 
 .icon--order-success svg circle {
-  -webkit-animation: checkmark-circle 0.6s ease-in-out backwards;
   animation: checkmark-circle 0.6s ease-in-out backwards;
-}
+}/*# sourceMappingURL=checkout.css.map */

@@ -1,0 +1,29 @@
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+.main-menu {
+  width: 500px !important;
+}
+.join__waitlist__btn {
+  background: rgb(237, 50, 56);
+  padding: 0.8rem 1.2rem;
+  border: 0;
+  outline: 0;
+  color: rgb(255, 248, 248);
+}
+
+@media screen and (max-width: 991px) {
+  .main-menu {
+    width: 100% !important;
+  }
+  .nav__links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .join__waitlist__btn {
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+    align-self: flex-start;
+  }
+}

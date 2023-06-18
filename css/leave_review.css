@@ -2,8 +2,6 @@
 /* LEAVE REVIEW PAGE */
 /*============================================================================================*/
 .box_general.write_review {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   background-color: #f4f4f4;
   padding-bottom: 25px;
@@ -70,7 +68,5 @@ input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-
   margin-bottom: 20px;
 }
 .latest_review .review_listing {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
-}
+}/*# sourceMappingURL=leave_review.css.map */

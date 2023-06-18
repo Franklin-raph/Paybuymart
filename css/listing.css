@@ -99,7 +99,7 @@
   padding-left: 27px;
 }
 .sort_select:after {
-  font-family: 'themify';
+  font-family: "themify";
   position: absolute;
   color: #444;
   left: 0;
@@ -112,8 +112,6 @@
   background: transparent;
   width: 110%;
   border: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   height: 25px;
   margin: 0;
@@ -125,8 +123,6 @@
 .sort_select select:focus {
   color: #444;
   outline: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
 }
 .sort_select select::-ms-expand {
@@ -157,16 +153,12 @@
   }
 }
 .filters_listing_1 .dropdown a.drop:after {
-  font-family: 'themify';
+  font-family: "themify";
   content: "\e64b";
   font-size: 14px;
   font-size: 0.875rem;
   color: #999;
   font-weight: 600;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   position: absolute;
   right: 10px;
@@ -178,12 +170,7 @@
 .filters_listing_1 .dropdown .dropdown-menu {
   background: #fff;
   border: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
   border-radius: 0;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
   padding: 15px;
   white-space: normal;
@@ -198,9 +185,6 @@
   padding: 10px 0;
   line-height: 1;
   font-weight: 500;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
 }
 .filters_listing_1 .dropdown a.apply_filter:hover {
@@ -214,8 +198,6 @@
 .row_item figure {
   position: relative;
   margin-bottom: 0;
-  -webkit-box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
   box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 767px) {
@@ -320,12 +302,8 @@
   position: relative;
 }
 .filter_type.version_2 h4 a:after {
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: 'themify';
+  font-family: "themify";
   font-size: 14px;
   font-size: 0.875rem;
   position: absolute;
@@ -362,10 +340,6 @@
     background-color: #fff;
     z-index: 99999999 !important;
     margin: 0;
-    -webkit-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    -moz-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    -ms-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
-    -o-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
     transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
   .filter_col.show {
@@ -397,4 +371,4 @@
 }
 .filter_col .inner_bt i:hover {
   color: #111;
-}
+}/*# sourceMappingURL=listing.css.map */

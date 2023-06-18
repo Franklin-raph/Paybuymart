@@ -2,8 +2,6 @@
 article.blog {
   margin-bottom: 30px;
   background-color: #fff;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
 }
 article.blog figure {
@@ -27,25 +25,17 @@ article.blog figure .preview {
   top: 50%;
   left: 0;
   margin-top: -12px;
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  -o-transform: translateY(10px);
   transform: translateY(10px);
   text-align: center;
   opacity: 0;
   visibility: hidden;
   width: 100%;
-  -webkit-transition: all 0.6s;
   transition: all 0.6s;
   z-index: 2;
 }
 article.blog figure .preview span {
   background-color: #fcfcfc;
   background-color: rgba(255, 255, 255, 0.8);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
   border-radius: 20px;
   display: inline-block;
   color: #222;
@@ -55,37 +45,19 @@ article.blog figure .preview span {
 article.blog figure:hover .preview {
   opacity: 1;
   visibility: visible;
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
   transform: translateY(0);
 }
 article.blog figure img {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  -moz-transform: translate(-50%, -50%) scale(1);
-  -ms-transform: translate(-50%, -50%) scale(1);
-  -o-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
-  -moz-transition: 0.3s;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   width: auto;
   height: 400px;
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 article.blog figure img:hover {
-  -webkit-transform: translate(-50%, -50%) scale(1.1);
-  -moz-transform: translate(-50%, -50%) scale(1.1);
-  -ms-transform: translate(-50%, -50%) scale(1.1);
-  -o-transform: translate(-50%, -50%) scale(1.1);
   transform: translate(-50%, -50%) scale(1.1);
 }
 @media (max-width: 991px) {
@@ -95,7 +67,7 @@ article.blog figure img:hover {
   }
 }
 article.blog .post_info {
-  padding: 20px 30px  30px 30px;
+  padding: 20px 30px 30px 30px;
   position: relative;
   box-sizing: border-box;
 }
@@ -125,7 +97,7 @@ article.blog .post_info ul {
 article.blog .post_info ul li {
   display: inline-block;
   position: relative;
-  padding: 12px 0  0 50px;
+  padding: 12px 0 0 50px;
   font-weight: 500;
   font-size: 12px;
   font-size: 0.75rem;
@@ -135,9 +107,6 @@ article.blog .post_info ul li .thumb {
   width: 40px;
   height: 40px;
   overflow: hidden;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -150,10 +119,6 @@ article.blog .post_info ul li .thumb img {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 article.blog .post_info ul li:last-child {
@@ -182,9 +147,6 @@ article.blog .post_info ul li:last-child i {
   width: 80px;
   height: 80px;
   overflow: hidden;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   position: relative;
 }
@@ -194,10 +156,6 @@ article.blog .post_info ul li:last-child i {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -274,9 +232,6 @@ article.blog .post_info ul li:last-child i {
   font-size: 13px;
   margin: 0 0 4px;
   letter-spacing: 0.4px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   display: inline-block;
   color: #333;
@@ -289,7 +244,7 @@ article.blog .post_info ul li:last-child i {
 .search_blog .form-group {
   position: relative;
 }
-.search_blog .form-group button[type="submit"] {
+.search_blog .form-group button[type=submit] {
   outline: none;
   color: #444;
   font-size: 21px;
@@ -300,21 +255,16 @@ article.blog .post_info ul li:last-child i {
   top: 5px;
   right: 0;
 }
-.search_blog .form-group button[type="submit"]:hover {
+.search_blog .form-group button[type=submit]:hover {
   color: #004dda;
 }
 
 /*Blog Post*/
 .singlepost {
   background-color: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   padding: 30px 30px 1px 30px;
   margin-bottom: 25px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
 .singlepost figure {
@@ -399,9 +349,6 @@ article.blog .post_info ul li:last-child i {
   width: 68px;
   height: 68px;
   overflow: hidden;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   position: relative;
 }
@@ -417,19 +364,12 @@ article.blog .post_info ul li:last-child i {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .comment_right {
   display: table;
   background-color: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
   padding: 20px 20px 0 20px;
   position: relative;
@@ -444,9 +384,6 @@ article.blog .post_info ul li:last-child i {
   width: 0;
   position: absolute;
   pointer-events: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -458,7 +395,7 @@ article.blog .post_info ul li:last-child i {
 }
 
 .comment_right:before {
-  border-color: transparent;
+  border-color: rgba(0, 0, 0, 0);
   border-width: 16px;
   margin-top: -16px;
 }
@@ -468,4 +405,4 @@ article.blog .post_info ul li:last-child i {
 }
 .comment_info span {
   padding: 0 10px;
-}
+}/*# sourceMappingURL=blog.css.map */
