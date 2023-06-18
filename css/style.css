@@ -283,7 +283,7 @@ Author URI: http://themeforest.net/user/Ansonika/
 .hamburger-inner::after {
   width: 26px;
   height: 2px;
-  background-color: #fff;
+  background-color: #282828;
   border-radius: 0;
   position: absolute;
   transition-property: transform;
